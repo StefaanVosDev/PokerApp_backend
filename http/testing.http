@@ -1,0 +1,15 @@
+### Get all games
+
+GET http://localhost:8081/api/games
+
+
+
+### Get a game by id
+
+GET http://localhost:8081/api/games/7fabf988-a888-4dc6-8423-4cd9f620ff00
+
+### Get a players hand by uuid
+
+GET http://localhost:8081/api/cards/player/fbe9bdbf-4329-4fea-9bed-0449d5677804
+
+

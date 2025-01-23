@@ -1,0 +1,26 @@
+POST http://localhost:8081/api/rounds/changePhase?gameId=647caa79-37c7-430c-9c7a-b3b3a9ef7a45&roundId=188165f9-1814-4aae-9d62-21482a08fb74
+
+###
+PUT http://localhost:8081/api/rounds/4e0dcb91-92fe-41a7-99be-db80fc9ef557/nextTurn?playerId=fbe9bdbf-4329-4fea-9bed-0449d5677804&turnId=1dc9c6ce-00af-4ab0-ab71-40e624871c8c
+
+###
+PUT http://localhost:8081/api/rounds/eadca6db-b7b1-4e9c-a143-48d3818c52da/createNewRoundIfFinished?gameId=88adf27f-9644-4dc9-a411-043622fcbfd3
+Content-Type: application/json
+
+###
+GET http://localhost:8081/api/turns?gameId=7fabf988-a888-4dc6-8423-4cd9f620ff00
+
+
+###
+POST http://localhost:8081/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "user",
+    "password": "password"
+}
+
+###
+
+GET http://localhost:8081/api/games/d1125c4a-adfe-497b-aeff-18fede122063/isOnMove
+Authorization: Bearer

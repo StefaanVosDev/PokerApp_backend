@@ -1,0 +1,8 @@
+### divide the pot of a finished round. there should be 1 clear winner receiving everything
+PUT http://localhost:8081/api/rounds/0e6ea81f-5527-4aef-98cb-2afb233fd8af/dividePot
+
+### divide the pot of a finished round. there should be 1 clear winner after double analyzation receiving everything
+PUT http://localhost:8081/api/rounds/b0f5f351-b87c-4b20-ad2c-f5ecde10b2e7/dividePot
+
+### divide the pot of a finished round. there should be 2 clear winner after double analyzation receiving an equal share
+PUT http://localhost:8081/api/rounds/058991ea-f89f-4eff-8d28-b0fa07fe6d20/dividePot
